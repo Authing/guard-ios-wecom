@@ -18,7 +18,7 @@ let package = Package(
         .binaryTarget(
             name: "WeCom",
             url: "https://github.com/Authing/guard-ios-wecom/releases/download/1.0.1/WeCom.xcframework.zip",
-            checksum: "7d5d1ca15f89bfcb0d49f497194e6d8c46f53e91ecde5ef17e39b01fcae65eb9"
+            checksum: "d0722f8c1b132856e19191e5a2f1dbbc52ffd04bbc5267d6ebb3402fcfc64941"
         )
     ]
 )

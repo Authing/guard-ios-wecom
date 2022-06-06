@@ -21,6 +21,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		A81635D6284E02120011B6ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A81635D5284E02120011B6ED /* Images.xcassets */; };
 		A81CAC55284DF26A008C0718 /* Guard in Frameworks */ = {isa = PBXBuildFile; productRef = A81CAC54284DF26A008C0718 /* Guard */; };
 		A81CAC57284DF2BB008C0718 /* WeComLoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81CAC56284DF2BB008C0718 /* WeComLoginButton.swift */; };
 		A8541D3B27EB3B8A00355EC5 /* WeCom.h in Headers */ = {isa = PBXBuildFile; fileRef = A8541D3A27EB3B8A00355EC5 /* WeCom.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A81635D5284E02120011B6ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A81CAC56284DF2BB008C0718 /* WeComLoginButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeComLoginButton.swift; sourceTree = "<group>"; };
 		A8541D3227EB3B7C00355EC5 /* WeCom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WeCom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8541D3A27EB3B8A00355EC5 /* WeCom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeCom.h; sourceTree = "<group>"; };
@@ -56,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A81635D4284E01AA0011B6ED /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A81635D5284E02120011B6ED /* Images.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		A840C7C927E4944400477EA0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				A8541D3927EB3B8A00355EC5 /* WeCom */,
+				A81635D4284E01AA0011B6ED /* Resource */,
 				A8541D4027EB3C3F00355EC5 /* Library */,
 				A8ABBBE827E1F30D00C5AAC9 /* Products */,
 				A840C7C927E4944400477EA0 /* Frameworks */,
@@ -183,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A81635D6284E02120011B6ED /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
